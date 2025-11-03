@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        div{
+            color: blue;
+            background-color: white;
+
+
+        }
+        
+    </style>
+</head>
+<body>
+     <div>
+    <h2>Student Registration Form</h2>
+    <form action="https://newerp.kluniversity.in">
+        </div>
+        <div>
+        <h3>--------------------Personal Information-------------</h3>
+        </div>
+        <div>
+        <lable for="fn">Full Name:</lable>
+        <input type="text" name="fn" required>
+        <br>
+         <br>
+        </div>
+        <div>
+        <lable for="gn">Gender:</lable>
+         <input type="radio" name="gn" value="m">Male
+        <input type="radio" name="gn" value="f">Female
+        <br>
+         <br>
+        </div>
+        
+        <div>
+        <label for="email">Email:</label>
+         <input type="email" required va>
+        <br>
+         <br>
+        </div>
+
+        <div>
+        <label for="cn">Contact:</label>
+        <input type="tel" pattern=[0-9]{10} required>
+        <br>
+         <br>
+        </div>
+
+        <div>
+        <label for="DOB">Date of Birth:</label>
+         <input type="date" name="DOB" required>
+        <br>
+         <br>
+        </div>
+
+        <div>
+        <label for="Ad"> Adress:</label>
+        <textarea rows="4" required>
+        </textarea>
+        </div>
+        
+        <div>
+        <h3>Academic Details</h3>
+
+        Branch: 
+        <select>
+            <option value="">--select--</option>
+            <option value="cse">Computer Engineering</option>
+            <option value="ece">Electronics engineering</option>
+            <option value="eee">Electrical Engineering</option>
+            <option value="me">Mechanical engineering</option>
+        </select> 
+        <br>
+
+        <label for="lang">Languages Know:</label>
+        <br>
+        <input type="checkbox" name="cb" value="TEL">
+        TELUGU<br>
+        <input type="checkbox" name="cb"value="ENG">
+        ENGLISH<br>
+        <input type="checkbox" name="cb" value="TAM">
+        TAMIL<br>
+        <input type="checkbox" name="cb" value="MAL">
+        MALAYALAM<br>
+        <input type="checkbox" name="cb" value="HIN">
+        HINDI<br>
+        <br>
+        </div>
+        <div>
+        Upload Resume:
+        <input type="file">
+        <br>
+
+        <button>submit</button>
+        <br>
+        </div>
+    </form>
+</body>
+</html>
