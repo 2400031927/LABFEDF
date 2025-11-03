@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": 350,
+    "availability": "In Stock"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "price": 499,
+    "availability": "In Stock"
+  },
+  {
+    "id": 3,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "price": 399,
+    "availability": "Out of Stock"
+  }
+]
